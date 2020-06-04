@@ -6,6 +6,8 @@ You can install or run our package following CosmoMC. Here we provide a [guide](
 Most of the changes are in **camb/equations_ppf.f90** and some files in **source**.<br>
 
 The general interacting dark energy model is written as (for more details please refer to our paper): <br>
-![](https://github.com/Ji-Ping-Dai/GeneralPPF/blob/master/docs/readme_fig1.PNG)
+![](https://github.com/Ji-Ping-Dai/GeneralPPF/blob/master/docs/readme_fig1.PNG)<br>
 Our package provides for different cases, which you can choose in **batch2/params CMB defaults.ini**
-![](https://github.com/Ji-Ping-Dai/GeneralPPF/blob/master/docs/readme_fig2.PNG)
+![](https://github.com/Ji-Ping-Dai/GeneralPPF/blob/master/docs/readme_fig2.PNG)<br>
+
+
