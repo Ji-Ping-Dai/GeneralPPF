@@ -5,11 +5,7 @@ This package is based on [CosmoMC](https://github.com/cmbant/CosmoMC) (version: 
 You can install or run our package following CosmoMC. Here we provide a [guide](https://arxiv.org/pdf/1808.05080).<br>
 Most of the changes are in **camb/equations_ppf.f90** and some files in **source**.<br>
 
-The general interacting dark energy model is written as: <br>
-![](http://latex.codecogs.com/gif.latex?\\\tf_{t,d}=1+log(tf_{t,d}\))
-
-$$\begin{equation}\begin{array}{l}
-Q_{d e}=-Q_{c}=C_{1} \rho_{c}+C_{2} \rho_{d e} \\
-\delta Q_{d e}=-\delta Q_{c}=C_{1}\left(\delta \rho_{c}\right)+C_{2}\left(\delta \rho_{d e}\right) \\
-Q_{d e}(v-B)+f_{d e}=-Q_{c}(v-B)-f_{c}=D_{1}\left(\rho_{c}+p_{c}\right)\left(v_{c}-B\right)+D_{2}\left(\rho_{d e}+p_{d e}\right)\left(v_{d e}-B\right)
-\end{array}\end{equation}$$
+The general interacting dark energy model is written as (for more details please refer to our paper): <br>
+![](https://github.com/Ji-Ping-Dai/GeneralPPF/blob/master/docs/readme_fig1.PNG)
+Our package provides for different cases, which you can choose in **batch2/params CMB defaults.ini**
+![](https://github.com/Ji-Ping-Dai/GeneralPPF/blob/master/docs/readme_fig2.PNG)
